@@ -1,0 +1,27 @@
+/* For desktops: */
+.product-block {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-item {
+    width: 30%;
+    text-align: center;
+}
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .product-item {
+        width: 100%;
+        text-align: center;
+    }
+}
